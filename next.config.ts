@@ -26,7 +26,49 @@ const nextConfig: NextConfig = {
         hostname: "lh3.googleusercontent.com",
         port: "",
         pathname: "/**",
-      }
+      },
+      {
+        protocol: "https",
+        hostname: "www.alaminterior.com",
+        port: "",
+        pathname: "/**"
+      },
+      {
+        protocol: "https",
+        hostname: "www.metalmarkhandicrafts.com",
+        port: "",
+        pathname: "/**"
+      },
+      {
+        protocol: "https",
+        hostname: "www.solarisui.com",
+        port: "",
+        pathname: "/**"
+      },
+      {
+        protocol: "https",
+        hostname: "www.hypenestcreative.com",
+        port: "",
+        pathname: "/**"
+      },
+      {
+        protocol: "https",
+        hostname: "www.calsinas.app",
+        port: "",
+        pathname: "/**"
+      },
+      {
+        protocol: "https",
+        hostname: "www.juviem.tech",
+        port: "",
+        pathname: "/**"
+      },
+      {
+        protocol: "https",
+        hostname: "www.naseemansari.me",
+        port: "",
+        pathname: "/**"
+      },
     ],
   }
 };

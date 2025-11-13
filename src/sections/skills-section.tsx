@@ -42,8 +42,18 @@ export function SkillsSection() {
                   {category.skills.map((skill, i) => (
                     <div
                       key={i}
-                      className="flex items-center justify-center h-12 bg-muted/50 rounded-lg border border-border/50 hover:bg-muted/80 transition-colors duration-200"
-                      style={{ width: "160px", marginRight: "20px" }}
+                      className="flex items-center justify-center h-12 bg-muted/50 rounded-lg border border-border/50 hover:bg-muted/80 transition-colors duration-200 px-6"
+                      style={{
+                        width:
+                          category.sliderConfig.width === "auto"
+                            ? "auto"
+                            : "160px",
+                        marginRight: "20px",
+                        minWidth:
+                          category.sliderConfig.width === "auto"
+                            ? "fit-content"
+                            : "160px",
+                      }}
                     >
                       <Text
                         size="sm"

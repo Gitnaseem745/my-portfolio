@@ -44,11 +44,14 @@ const Slider = ({
     const style = document.createElement("style");
     style.type = "text/css";
 
+    // For auto width, use 100% instead of calculated width
+    const isAutoWidth = width === "auto";
+
     if (toRight) {
       // For right direction: start from left position and move right
       style.innerHTML = `
         @keyframes slider_animation_${idNanoid} {
-          0% { transform: translateX(calc(-${width} * ${childrenCount})); }
+          0% { transform: translateX(${isAutoWidth ? "-100%" : `calc(-${width} * ${childrenCount})`}); }
           100% { transform: translateX(0); }
         }
       `;
@@ -57,7 +60,7 @@ const Slider = ({
       style.innerHTML = `
         @keyframes slider_animation_${idNanoid} {
           0% { transform: translateX(0); }
-          100% { transform: translateX(calc(-${width} * ${childrenCount})); }
+          100% { transform: translateX(${isAutoWidth ? "-100%" : `calc(-${width} * ${childrenCount})`}); }
         }
       `;
     }
@@ -81,13 +84,18 @@ const Slider = ({
     if (sliderElement) sliderElement.style.animationPlayState = "running";
   };
 
+  const isAutoWidth = width === "auto";
+  const childrenCount = React.Children.count(children);
+
   return (
     <div style={{ position: "relative", width: "100%", overflow: "hidden" }}>
       <div
         style={{
           display: "flex",
           animation: `slider_animation_${idNanoid} ${duration}s linear infinite`,
-          width: `calc(${width} * ${React.Children.count(children) * 3})`,
+          width: isAutoWidth
+            ? "max-content"
+            : `calc(${width} * ${childrenCount * 3})`,
         }}
         className="space-x-10"
         id={`slider_${idNanoid}`}

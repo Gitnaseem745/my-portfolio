@@ -16,7 +16,8 @@ export async function PostSection() {
             Latest Posts
           </Heading>
           <p className="text-muted-foreground text-lg font-medium">
-            Thoughts, ideas, and insights from my journey
+            Deep dives, discoveries, and developer stories — exploring
+            everything.
           </p>
           <Link href="/blog" className="pt-4">
             <Button variant="outline">View All Posts</Button>

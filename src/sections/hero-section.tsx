@@ -1,15 +1,15 @@
 import { Button } from "@/components/button";
 import { Heading, Text } from "@/components/typography";
-import { Dribbble, Instagram, Linkedin, Twitch } from "lucide-react";
+import { Twitter, Instagram, Linkedin, Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/config/siteConfig";
 
 const iconMap = {
-  Dribbble,
+  Twitter,
   Instagram,
   Linkedin,
-  Twitch,
+  Github,
 };
 
 export function HeroSection() {

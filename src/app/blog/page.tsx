@@ -109,7 +109,10 @@ const BlogPage = async ({ searchParams }: BlogPageProps) => {
       {/* Blog Posts */}
       {posts.length > 0 ? (
         <>
-          <BlogPostsPreview posts={posts} className="max-w-4xl mx-auto" />
+          <BlogPostsPreview
+            posts={posts}
+            className="max-w-4xl mx-auto min-h-[80vh]"
+          />
 
           {/* Pagination */}
           {pagination.totalPages > 1 && (

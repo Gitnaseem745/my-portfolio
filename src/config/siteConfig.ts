@@ -1,279 +1,432 @@
 export const siteConfig = {
-  name: "Naseem's Portfolio",
-  description:
-    "A minimal and modern portfolio built with Next.js and TypeScript",
-  url: "https://naseem-portfolio.vercel.app",
-  ogImage: "https://naseem-portfolio.vercel.app/og.jpg",
-  links: {
-    twitter: "https://twitter.com/",
-    github: "https://github.com/",
-  },
-  themes: ["light", "dark", "system"],
-  currentTheme: "light",
-  
-  // Section Content
-  sections: {
-    hero: {
-      name: "Naseem Ansari",
-      title: "Full Stack Developer, Designer, Entrepreneur",
-      description: "I am a full stack developer with a passion for creating beautiful and functional web applications. I have experience in both front-end and back-end development, and I love to design user interfaces that are both intuitive and visually appealing.",
-      image: {
-        src: "/images/hero-image.jpg",
-        alt: "Naseem Ansari - Full Stack Developer",
-        width: 330,
-        height: 160
-      },
-      socialLinks: [
-        { name: "Dribbble", icon: "Dribbble", href: "https://dribbble.com/" },
-        { name: "LinkedIn", icon: "Linkedin", href: "https://www.linkedin.com/in/" },
-        { name: "Twitch", icon: "Twitch", href: "https://www.twitch.tv/" },
-        { name: "Instagram", icon: "Instagram", href: "https://www.instagram.com/" }
-      ],
-      cta: {
-        text: "Contact Me",
-        href: "#contact"
-      }
+    name: "Naseem's Portfolio",
+    description:
+        "A minimal and modern portfolio built with Next.js and TypeScript",
+    url: "https://naseem-portfolio.vercel.app",
+    ogImage: "https://naseem-portfolio.vercel.app/og.jpg",
+    links: {
+        twitter: "https://twitter.com/dev_Naseem",
+        github: "https://github.com/Gitnaseem745",
     },
-    
-    skills: {
-      title: "Skills & Technologies",
-      description: "Technologies I work with to bring ideas to life",
-      categories: [
-        {
-          name: "Frontend Development",
-          skills: [
-            "React", "Next.js", "TypeScript", "JavaScript", "HTML5", 
-            "CSS3", "Tailwind CSS", "Framer Motion", "Redux", "Vue.js"
-          ],
-          sliderConfig: {
-            width: "180px",
-            duration: 40,
-            toRight: false,
-            pauseOnHover: true
-          }
-        },
-        {
-          name: "Backend & Database",
-          skills: [
-            "Node.js", "Express.js", "Python", "Django", "PostgreSQL",
-            "MongoDB", "GraphQL", "REST APIs", "Docker", "AWS"
-          ],
-          sliderConfig: {
-            width: "180px",
-            duration: 50,
-            toRight: true,
-            pauseOnHover: true
-          }
-        },
-        {
-          name: "Tools & Software",
-          skills: [
-            "Git", "GitHub", "VS Code", "Figma", "Photoshop",
-            "Webpack", "Vite", "ESLint", "Prettier", "Postman"
-          ],
-          sliderConfig: {
-            width: "180px",
-            duration: 45,
-            toRight: false,
-            pauseOnHover: true
-          }
-        }
-      ]
-    },
-    
-    projects: {
-      title: "Featured Projects",
-      description: "A collection of projects I've built and contributed to",
-      projects: [
-        {
-          id: 1,
-          title: "Web Arcs",
-          description: "A modern web application for audio visualization and analysis. Built with React and Web Audio API to create interactive sound experiences.",
-          category: "Web Application",
-          year: "2025",
-          status: "Live",
-          technologies: ["React", "TypeScript", "Web Audio API", "Framer Motion", "Tailwind CSS"],
-          liveUrl: "https://web-arcs-demo.vercel.app",
-          githubUrl: "https://github.com/yourusername/web-arcs",
-          image: {
-            src: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3",
-            alt: "Web Arcs Project - Audio Visualization App",
-            width: 500,
-            height: 300
-          }
-        },
-        {
-          id: 2,
-          title: "Spectic Cris",
-          description: "A comprehensive project management dashboard with real-time collaboration features. Designed for teams to track progress and manage workflows efficiently.",
-          category: "Dashboard",
-          year: "2024",
-          status: "Live",
-          technologies: ["Next.js", "Node.js", "PostgreSQL", "Socket.io", "Prisma"],
-          liveUrl: "https://spectrum-flow.vercel.app",
-          githubUrl: "https://github.com/yourusername/spectrum-flow",
-          image: {
-            src: "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8",
-            alt: "Spectrum Flow - Project Management Dashboard",
-            width: 500,
-            height: 300
-          }
-        },
-        {
-          id: 3,
-          title: "Portfolio Website",
-          description: "A minimal and modern portfolio website built with Next.js and TypeScript. Features dark mode, responsive design, and smooth animations. Showcases my work and skills effectively. Dark mode toggle and smooth animations enhance user experience.",
-          category: "Portfolio",
-          year: "2025",
-          status: "Live",
-          technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-          liveUrl: "https://your-portfolio.vercel.app",
-          githubUrl: "https://github.com/yourusername/portfolio",
-          image: {
-            src: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d",
-            alt: "Portfolio Website - Modern Design",
-            width: 500,
-            height: 300
-          }
-        },
-        {
-          id: 4,
-          title: "E-Commerce Platform",
-          description: "A full-featured e-commerce platform with payment integration, inventory management, and admin dashboard. Built with modern technologies for scalability and performance.",
-          category: "E-Commerce",
-          year: "2024",
-          status: "Live",
-          technologies: ["Next.js", "Stripe", "Prisma", "PostgreSQL", "Zustand", "Cloudinary"],
-          liveUrl: "https://ecommerce-platform-demo.vercel.app",
-          githubUrl: "https://github.com/yourusername/ecommerce-platform",
-          image: {
-            src: "https://images.unsplash.com/photo-1605379399843-5870eea9b74e",
-            alt: "E-Commerce Platform - Online Shopping",
-            width: 500,
-            height: 300
-          }
-        }
-      ]
-    },
+    themes: ["light", "dark", "system"],
+    currentTheme: "light",
 
-    experience: {
-      title: "Work Experience",
-      description: "My professional journey and key accomplishments",
-      experiences: [
-        {
-          id: 1,
-          position: "Senior Full Stack Developer",
-          company: "TechCorp Solutions",
-          location: "San Francisco, CA",
-          type: "Full-time",
-          startDate: "Jan 2023",
-          endDate: "Present",
-          description: "Led development of scalable web applications using React, Node.js, and AWS. Mentored junior developers and implemented best practices for code quality and deployment.",
-          achievements: [
-            "Improved application performance by 40% through optimization",
-            "Led a team of 5 developers on multiple high-priority projects",
-            "Implemented CI/CD pipeline reducing deployment time by 60%"
-          ],
-          technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+    // Section Content
+    sections: {
+        hero: {
+            name: "Naseem Ansari",
+            title: "Full Stack Developer",
+            description: "I craft modern, performant web applications with Next.js, TypeScript, and Express — blending design, logic, and motion into seamless user experiences.",
+            image: {
+                src: "/images/me.jpg",
+                alt: "Naseem Ansari - Full Stack Developer",
+                width: 330,
+                height: 160
+            },
+            socialLinks: [
+                { name: "X (Twitter)", icon: "Twitter", href: "https://x.com/dev_Naseem" },
+                { name: "LinkedIn", icon: "Linkedin", href: "https://www.linkedin.com/in/naseem-ansari-25474b269/" },
+                { name: "GitHub", icon: "Github", href: "https://github.com/Gitnaseem745" },
+                { name: "Instagram", icon: "Instagram", href: "https://www.instagram.com/dev_Naseem" }
+            ],
+            cta: {
+                text: "Contact Me",
+                href: "#contact"
+            }
         },
-        {
-          id: 2,
-          position: "Full Stack Developer",
-          company: "StartupXYZ",
-          location: "Remote",
-          type: "Full-time",
-          startDate: "Mar 2021",
-          endDate: "Dec 2022",
-          description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with design and product teams to deliver exceptional user experiences.",
-          achievements: [
-            "Built 3 client applications from scratch using Next.js",
-            "Reduced bug reports by 30% through comprehensive testing",
-            "Collaborated with designers to improve UI/UX consistency"
-          ],
-          technologies: ["Next.js", "React", "Python", "Django", "MongoDB"]
+
+        skills: {
+            title: "Skills & Technologies",
+            description: "From concept to deployment, I bridge design and logic to craft full-stack experiences that feel fast, fluid, and functional.",
+            categories: [
+                {
+                    name: "Frontend Development",
+                    skills: [
+                        "Next.js", "React", "TypeScript", "JavaScript (ES6+)",
+                        "HTML5", "CSS3", "Tailwind CSS", "Framer Motion",
+                        "Redux Toolkit", "Zustand", "React Query"
+                    ],
+                    sliderConfig: {
+                        width: "180px",
+                        duration: 40,
+                        toRight: false,
+                        pauseOnHover: true
+                    }
+                },
+                {
+                    name: "Backend & Database",
+                    skills: [
+                        "Node.js", "Express.js", "MongoDB", "Mongoose",
+                        "REST APIs", "JWT", "Clerk",
+                        "Middleware", "Error Handling", "Firebase", "Cloudinary"
+                    ],
+                    sliderConfig: {
+                        width: "180px",
+                        duration: 50,
+                        toRight: true,
+                        pauseOnHover: true
+                    }
+                },
+                {
+                    name: "DevOps & Tools",
+                    skills: [
+                        "Git", "GitHub", "VS Code", "ThunderClient",
+                        "Vercel", "Render", "ESLint", "Prettier",
+                        "Webpack", "Vite", "Nodemon"
+                    ],
+                    sliderConfig: {
+                        width: "180px",
+                        duration: 45,
+                        toRight: false,
+                        pauseOnHover: true
+                    }
+                },
+                {
+                    name: "Additional Expertise",
+                    skills: [
+                        "API Design & Integration", "Performance Optimization",
+                        "Responsive UI Design", "SEO Optimization",
+                        "Web Scraping (Puppeteer, Cheerio, Axios)",
+                        "Security Best Practices (CORS, Helmet)", "Web Accessibility (a11y)"
+                    ],
+                    sliderConfig: {
+                        width: "auto",
+                        duration: 95,
+                        toRight: true,
+                        pauseOnHover: true
+                    }
+                }
+            ]
         },
-        {
-          id: 3,
-          position: "Frontend Developer",
-          company: "Digital Agency Pro",
-          location: "New York, NY",
-          type: "Full-time",
-          startDate: "Jun 2019",
-          endDate: "Feb 2021",
-          description: "Specialized in creating responsive and interactive web interfaces. Worked closely with clients to understand requirements and deliver pixel-perfect designs.",
-          achievements: [
-            "Delivered 15+ client projects with 100% satisfaction rate",
-            "Improved website loading speed by 50% through optimization",
-            "Introduced modern development practices to the team"
-          ],
-          technologies: ["JavaScript", "HTML5", "CSS3", "Vue.js", "Sass"]
+
+        projects: {
+            title: "Featured Projects",
+            description: "A showcase of products, templates, and client projects I’ve designed and developed across the full stack.",
+            projects: [
+                {
+                    id: 1,
+                    title: "SolarisUI",
+                    description: "An open-source UI library built with TypeScript and React, featuring 25+ UI components, 20+ custom hooks, 20+ motion animations, and a Tailwind theme generator with 40+ pre-defined themes. Focused on flexibility, scalability, and developer experience.",
+                    category: "Open Source / UI Library",
+                    year: "2025",
+                    status: "Active",
+                    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite"],
+                    liveUrl: "https://solarisui.com",
+                    githubUrl: "https://github.com/naseem-ansari/solarisui",
+                    image: {
+                        src: "/project-imgs/solaris.png",
+                        alt: "SolarisUI - Modern React UI Library",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 2,
+                    title: "NextLaunch",
+                    description: "A Next.js template marketplace offering ready-to-use, responsive, and animated templates for developers. Each template is built with TypeScript, Tailwind CSS, and Framer Motion for seamless integration and modern performance.",
+                    category: "Product Platform",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "https://nextlaunch.solarisui.com/templates",
+                    githubUrl: "https://github.com/naseem-ansari/nextlaunch",
+                    image: {
+                        src: "/project-imgs/nextlaunch.png",
+                        alt: "NextLaunch - Template Store Platform",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 3,
+                    title: "NaseemAnsari.me",
+                    description: "My personal portfolio website showcasing my journey, projects, and experience as a full-stack developer and designer. Built with a focus on motion design, minimalism, and scalability.",
+                    category: "Portfolio",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "https://naseemansari.me",
+                    githubUrl: "https://github.com/naseem-ansari/naseemansari.me",
+                    image: {
+                        src: "/project-imgs/portfoliotemp.png",
+                        alt: "Naseem Ansari Portfolio Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 4,
+                    title: "TJ Perfumes",
+                    description: "An e-commerce platform for a perfume brand built using WordPress and WooCommerce, integrating UPI payments, POD options, and a premium design experience.",
+                    category: "E-Commerce",
+                    year: "2023",
+                    status: "Live",
+                    technologies: ["WordPress", "WooCommerce", "PHP", "SEO"],
+                    liveUrl: "https://tjperfumes.in",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/solarix.png",
+                        alt: "TJ Perfumes E-commerce Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 5,
+                    title: "Swami Swaroopanand Educational Welfare Society (SSEWS)",
+                    description: "A non-profit organization website built to promote educational and health initiatives, featuring clean design, community focus, and accessible navigation.",
+                    category: "Non-Profit",
+                    year: "2023",
+                    status: "Live",
+                    technologies: ["WordPress", "HTML5", "CSS3", "SEO"],
+                    liveUrl: "https://ssews.org",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/ssews.png",
+                        alt: "SSEWS NGO Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 6,
+                    title: "Alam Interior",
+                    description: "A professional business website for an interior design company, highlighting portfolio, services, and brand identity with elegant, modern design.",
+                    category: "Client Project",
+                    year: "2024",
+                    status: "Live",
+                    technologies: ["WordPress", "Elementor", "SEO"],
+                    liveUrl: "https://www.alaminterior.com/",
+                    githubUrl: "",
+                    image: {
+                        src: "https://www.alaminterior.com/og-images/home.png",
+                        alt: "Alam Interior Client Website",
+                        width: 500,
+                        height: 300
+                    }
+                },
+                {
+                    id: 7,
+                    title: "MetalMark Handicrafts",
+                    description: "An export-import metalworks website for an artisan manufacturing company, designed to showcase handcrafted products and increase international visibility.",
+                    category: "Client Project",
+                    year: "2024",
+                    status: "Live",
+                    technologies: ["WordPress", "Elementor", "SEO"],
+                    liveUrl: "https://www.metalmarkhandicrafts.com/",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/metalmark.png",
+                        alt: "MetalMark Handicrafts Client Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 8,
+                    title: "HypeNest Creative",
+                    description: "A creative agency website designed to showcase branding, digital marketing, and web design services with a premium, minimal design aesthetic.",
+                    category: "Client Project",
+                    year: "2024",
+                    status: "Live",
+                    technologies: ["WordPress", "Elementor", "SEO"],
+                    liveUrl: "https://www.hypenestcreative.com/",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/hypenest.png",
+                        alt: "HypeNest Creative Agency Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 9,
+                    title: "BelaDesign International",
+                    description: "An export-import metalworks business website built for an overseas client. Delivered a responsive design highlighting their handcrafted metal art pieces. (Now discontinued)",
+                    category: "Client Project",
+                    year: "2023",
+                    status: "Offline",
+                    technologies: ["WordPress", "Elementor"],
+                    liveUrl: "",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/focussync.png",
+                        alt: "BelaDesign International Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 10,
+                    title: "Calsinas",
+                    description: "An upcoming modern web project under development. Currently features an interactive hero section as a landing concept.",
+                    category: "In Progress",
+                    year: "2025",
+                    status: "Development",
+                    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/calsinas.png",
+                        alt: "Calsinas Project Landing Page",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 11,
+                    title: "Juviem",
+                    description: "A future web concept project with a completed landing section focused on branding and digital presence. Designed to evolve into a full-scale product.",
+                    category: "In Progress",
+                    year: "2025",
+                    status: "Development",
+                    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/juviem.png",
+                        alt: "Juviem Landing Page Project",
+                        width: 800,
+                        height: 450
+                    }
+                }
+            ]
+        },
+
+        experience: {
+            title: "Work Experience",
+            description: "My professional journey and hands-on experience across full-stack development, design, and digital creation.",
+            experiences: [
+                {
+                    id: 1,
+                    position: "Full Stack Developer",
+                    company: "Self-Employed",
+                    location: "Remote",
+                    type: "Freelance / Self-employed",
+                    startDate: "Sep 2024",
+                    endDate: "Present",
+                    description: "Building scalable and visually engaging full-stack applications using Next.js, TypeScript, and MongoDB. Focusing on performance, UI/UX, and reusable design systems.",
+                    achievements: [
+                        "Developed end-to-end projects integrating backend APIs with dynamic frontends.",
+                        "Built and maintained SolarisUI — a React-based UI library with reusable components and motion elements.",
+                        "Created and deployed NextLaunch — a Next.js template store for developers."
+                    ],
+                    technologies: ["Next.js", "TypeScript", "Node.js", "Express", "MongoDB", "Framer Motion", "Tailwind CSS"]
+                },
+                {
+                    id: 2,
+                    position: "Frontend Developer",
+                    company: "Freelance",
+                    location: "Remote",
+                    type: "Freelance",
+                    startDate: "Mar 2024",
+                    endDate: "Present",
+                    description: "Designed and developed modern, interactive frontends for client projects, focusing on responsive layouts and intuitive design.",
+                    achievements: [
+                        "Delivered pixel-perfect, high-performance UIs using Next.js and Tailwind CSS.",
+                        "Collaborated with clients to transform design prototypes from Figma into production-ready interfaces.",
+                        "Enhanced user engagement through smooth motion effects using Framer Motion."
+                    ],
+                    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Figma"]
+                },
+                {
+                    id: 3,
+                    position: "WordPress Developer",
+                    company: "Freelance",
+                    location: "Remote",
+                    type: "Freelance",
+                    startDate: "May 2022",
+                    endDate: "Aug 2025",
+                    description: "Developed and managed business and e-commerce websites for clients using WordPress and WooCommerce.",
+                    achievements: [
+                        "Built custom websites for educational institutes, import/export businesses, and perfume brands.",
+                        "Integrated UPI and POD payment systems for e-commerce platforms.",
+                        "Implemented SEO strategies that improved client site rankings and visibility."
+                    ],
+                    technologies: ["WordPress", "WooCommerce", "PHP", "Elementor", "SEO"]
+                },
+                {
+                    id: 4,
+                    position: "Blogger",
+                    company: "Self-Employed",
+                    location: "Remote",
+                    type: "Self-employed",
+                    startDate: "Jun 2022",
+                    endDate: "Apr 2024",
+                    description: "Created and managed Intelpedia, a blog and AI tools directory focused on AI tools, prompts, and insights into emerging technologies.",
+                    achievements: [
+                        "Published 50+ articles about AI tools, prompt engineering, and productivity.",
+                        "Built a growing community of tech readers and creators.",
+                        "Handled SEO, content strategy, and blog performance optimization independently."
+                    ],
+                    technologies: ["WordPress", "SEO", "Content Strategy", "AI Tools", "Blog Management"]
+                }
+            ]
+        },
+
+        contact: {
+            title: "Get In Touch",
+            description: "Let’s connect and build something meaningful together.",
+            formFields: [
+                {
+                    name: "name",
+                    label: "Name",
+                    type: "text",
+                    icon: "User",
+                    placeholder: "Your full name",
+                    required: true,
+                    validation: {
+                        required: "Name is required"
+                    }
+                },
+                {
+                    name: "email",
+                    label: "Email",
+                    type: "email",
+                    icon: "Mail",
+                    placeholder: "your.email@example.com",
+                    required: true,
+                    validation: {
+                        required: "Email is required",
+                        pattern: "Please enter a valid email"
+                    }
+                },
+                {
+                    name: "subject",
+                    label: "Subject",
+                    type: "text",
+                    icon: "MessageCircle",
+                    placeholder: "What's this about?",
+                    required: true,
+                    validation: {
+                        required: "Subject is required"
+                    }
+                },
+                {
+                    name: "message",
+                    label: "Message",
+                    type: "textarea",
+                    icon: "MessageCircle",
+                    placeholder: "Tell me about your project or idea...",
+                    required: true,
+                    rows: 6,
+                    validation: {
+                        required: "Message is required",
+                        minLength: "Message must be at least 10 characters"
+                    }
+                }
+            ],
+            submitButton: {
+                text: "Send Message",
+                loadingText: "Sending...",
+                icon: "Send"
+            },
+            messages: {
+                success: "Message sent successfully! I'll get back to you soon.",
+                error: "Failed to send message. Please try again."
+            }
         }
-      ]
-    },
-    
-    contact: {
-      title: "Get In Touch",
-      description: "Have a project in mind? Let's work together to bring your ideas to life.",
-      formFields: [
-        {
-          name: "name",
-          label: "Name",
-          type: "text",
-          icon: "User",
-          placeholder: "Your full name",
-          required: true,
-          validation: {
-            required: "Name is required"
-          }
-        },
-        {
-          name: "email",
-          label: "Email",
-          type: "email",
-          icon: "Mail",
-          placeholder: "your.email@example.com",
-          required: true,
-          validation: {
-            required: "Email is required",
-            pattern: "Please enter a valid email"
-          }
-        },
-        {
-          name: "subject",
-          label: "Subject",
-          type: "text",
-          icon: "MessageCircle",
-          placeholder: "What's this about?",
-          required: true,
-          validation: {
-            required: "Subject is required"
-          }
-        },
-        {
-          name: "message",
-          label: "Message",
-          type: "textarea",
-          icon: "MessageCircle",
-          placeholder: "Tell me about your project or idea...",
-          required: true,
-          rows: 6,
-          validation: {
-            required: "Message is required",
-            minLength: "Message must be at least 10 characters"
-          }
-        }
-      ],
-      submitButton: {
-        text: "Send Message",
-        loadingText: "Sending...",
-        icon: "Send"
-      },
-      messages: {
-        success: "Message sent successfully! I'll get back to you soon.",
-        error: "Failed to send message. Please try again."
-      }
     }
-  }
 };
 
 export type siteConfig = typeof siteConfig;
