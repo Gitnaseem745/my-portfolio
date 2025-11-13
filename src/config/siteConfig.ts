@@ -1,9 +1,9 @@
 export const siteConfig = {
-    name: "Naseem's Portfolio",
+    name: "Naseem Ansari - Full Stack Developer",
     description:
-        "A minimal and modern portfolio built with Next.js and TypeScript",
-    url: "https://naseem-portfolio.vercel.app",
-    ogImage: "https://naseem-portfolio.vercel.app/og.jpg",
+        "Full Stack Developer specializing in Next.js, TypeScript, React, and Node.js. Building modern web applications with seamless UI/UX, APIs, and performance optimization. Open source contributor and template creator.",
+    url: "https://naseemansari.me",
+    ogImage: "/project-imgs/naseemansari.png",
     links: {
         twitter: "https://twitter.com/dev_Naseem",
         github: "https://github.com/Gitnaseem745",
@@ -110,9 +110,9 @@ export const siteConfig = {
                     category: "Open Source / UI Library",
                     year: "2025",
                     status: "Active",
-                    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite"],
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
                     liveUrl: "https://solarisui.com",
-                    githubUrl: "https://github.com/naseem-ansari/solarisui",
+                    githubUrl: "https://github.com/Gitnaseem745/solarisui",
                     image: {
                         src: "/project-imgs/solaris.png",
                         alt: "SolarisUI - Modern React UI Library",
@@ -122,14 +122,14 @@ export const siteConfig = {
                 },
                 {
                     id: 2,
-                    title: "NextLaunch",
-                    description: "A Next.js template marketplace offering ready-to-use, responsive, and animated templates for developers. Each template is built with TypeScript, Tailwind CSS, and Framer Motion for seamless integration and modern performance.",
+                    title: "NextLaunch (Template Store)",
+                    description: "A Next.js template marketplace offering ready-to-use, responsive, and animated templates for developers. Built with TypeScript, Tailwind CSS and Framer Motion for modern performance and design.",
                     category: "Product Platform",
                     year: "2025",
                     status: "Live",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "https://nextlaunch.solarisui.com/templates",
-                    githubUrl: "https://github.com/naseem-ansari/nextlaunch",
+                    liveUrl: "https://nextlaunch.solarisui.com/",
+                    githubUrl: "",
                     image: {
                         src: "/project-imgs/nextlaunch.png",
                         alt: "NextLaunch - Template Store Platform",
@@ -139,80 +139,29 @@ export const siteConfig = {
                 },
                 {
                     id: 3,
-                    title: "NaseemAnsari.me",
-                    description: "My personal portfolio website showcasing my journey, projects, and experience as a full-stack developer and designer. Built with a focus on motion design, minimalism, and scalability.",
-                    category: "Portfolio",
-                    year: "2025",
+                    title: "Alam Interior",
+                    description: "A professional business website for an interior design company, highlighting portfolio, services and brand identity with elegant, modern design.",
+                    category: "Client Project",
+                    year: "2024",
                     status: "Live",
-                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "https://naseemansari.me",
-                    githubUrl: "https://github.com/naseem-ansari/naseemansari.me",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "SEO"],
+                    liveUrl: "https://www.alaminterior.com/",
+                    githubUrl: "",
                     image: {
-                        src: "/project-imgs/portfoliotemp.png",
-                        alt: "Naseem Ansari Portfolio Website",
+                        src: "/project-imgs/alaminterior.png",
+                        alt: "Alam Interior Client Website",
                         width: 800,
                         height: 450
                     }
                 },
                 {
                     id: 4,
-                    title: "TJ Perfumes",
-                    description: "An e-commerce platform for a perfume brand built using WordPress and WooCommerce, integrating UPI payments, POD options, and a premium design experience.",
-                    category: "E-Commerce",
-                    year: "2023",
-                    status: "Live",
-                    technologies: ["WordPress", "WooCommerce", "PHP", "SEO"],
-                    liveUrl: "https://tjperfumes.in",
-                    githubUrl: "",
-                    image: {
-                        src: "/project-imgs/solarix.png",
-                        alt: "TJ Perfumes E-commerce Website",
-                        width: 800,
-                        height: 450
-                    }
-                },
-                {
-                    id: 5,
-                    title: "Swami Swaroopanand Educational Welfare Society (SSEWS)",
-                    description: "A non-profit organization website built to promote educational and health initiatives, featuring clean design, community focus, and accessible navigation.",
-                    category: "Non-Profit",
-                    year: "2023",
-                    status: "Live",
-                    technologies: ["WordPress", "HTML5", "CSS3", "SEO"],
-                    liveUrl: "https://ssews.org",
-                    githubUrl: "",
-                    image: {
-                        src: "/project-imgs/ssews.png",
-                        alt: "SSEWS NGO Website",
-                        width: 800,
-                        height: 450
-                    }
-                },
-                {
-                    id: 6,
-                    title: "Alam Interior",
-                    description: "A professional business website for an interior design company, highlighting portfolio, services, and brand identity with elegant, modern design.",
-                    category: "Client Project",
-                    year: "2024",
-                    status: "Live",
-                    technologies: ["WordPress", "Elementor", "SEO"],
-                    liveUrl: "https://www.alaminterior.com/",
-                    githubUrl: "",
-                    image: {
-                        src: "https://www.alaminterior.com/og-images/home.png",
-                        alt: "Alam Interior Client Website",
-                        width: 500,
-                        height: 300
-                    }
-                },
-                {
-                    id: 7,
                     title: "MetalMark Handicrafts",
                     description: "An export-import metalworks website for an artisan manufacturing company, designed to showcase handcrafted products and increase international visibility.",
                     category: "Client Project",
                     year: "2024",
                     status: "Live",
-                    technologies: ["WordPress", "Elementor", "SEO"],
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "SEO"],
                     liveUrl: "https://www.metalmarkhandicrafts.com/",
                     githubUrl: "",
                     image: {
@@ -223,13 +172,30 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 8,
+                    id: 5,
+                    title: "SSEWS (Swami Swaroopanand Educational Welfare Society)",
+                    description: "A non-profit organization website built to promote educational and health initiatives, featuring clean design, community focus and accessible navigation.",
+                    category: "Client Project",
+                    year: "2023",
+                    status: "Live",
+                    technologies: ["WordPress", "HTML5", "CSS3", "SEO"],
+                    liveUrl: "https://ssews.com",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/ssews.png",
+                        alt: "SSEWS NGO Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 6,
                     title: "HypeNest Creative",
                     description: "A creative agency website designed to showcase branding, digital marketing, and web design services with a premium, minimal design aesthetic.",
                     category: "Client Project",
                     year: "2024",
                     status: "Live",
-                    technologies: ["WordPress", "Elementor", "SEO"],
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
                     liveUrl: "https://www.hypenestcreative.com/",
                     githubUrl: "",
                     image: {
@@ -240,31 +206,116 @@ export const siteConfig = {
                     }
                 },
                 {
+                    id: 7,
+                    title: "Modern Portfolio (Template)",
+                    description: "A sleek, high-performance portfolio template crafted for developers and creative professionals. Built with Next.js and optimized for speed and animations.",
+                    category: "Template",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "https://portfolio-wisp-blog.vercel.app/",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/portfoliotemp.png",
+                        alt: "Modern Developer Template",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 8,
+                    title: "Digital Agency (Template)",
+                    description: "A responsive agency landing template with smooth animations and SEO-friendly structure — designed for digital and creative agencies.",
+                    category: "Template",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "https://solarix-tau.vercel.app/",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/solarix.png",
+                        alt: "Digital Agency Template",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
                     id: 9,
-                    title: "BelaDesign International",
-                    description: "An export-import metalworks business website built for an overseas client. Delivered a responsive design highlighting their handcrafted metal art pieces. (Now discontinued)",
-                    category: "Client Project",
-                    year: "2023",
-                    status: "Offline",
-                    technologies: ["WordPress", "Elementor"],
-                    liveUrl: "",
+                    title: "Productivity App (Template)",
+                    description: "A multi-theme landing template for productivity apps with fast loading and habit-tracking focused components.",
+                    category: "Template",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "https://focus-sync-theta.vercel.app/",
                     githubUrl: "",
                     image: {
                         src: "/project-imgs/focussync.png",
-                        alt: "BelaDesign International Website",
+                        alt: "Productivity App Template",
                         width: 800,
                         height: 450
                     }
                 },
                 {
                     id: 10,
+                    title: "Digital Business (Template)",
+                    description: "A mobile-first, modern landing page template designed for digital businesses and startups, optimized for conversion and speed.",
+                    category: "Template",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "https://mobifyx.vercel.app/",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/mobifyX.png",
+                        alt: "Digital Business Template",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 11,
+                    title: "Personal Portfolio",
+                    description: "My personal portfolio website showcasing my journey, projects, and experience as a full‐stack developer and designer. Built with a focus on motion design, minimalism, and scalability.",
+                    category: "Portfolio",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+                    liveUrl: "https://naseemansari.me",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/portfolio.png",
+                        alt: "Naseem Ansari Portfolio Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 12,
+                    title: "Intelpedia",
+                    description: "An AI-focused blog and tools directory where I publish tutorials, prompt libraries, tool breakdowns and AI image-generation prompts. Designed to grow as a community resource for prompt-engineering and AI workflows.",
+                    category: "Blog / Knowledge Base",
+                    year: "2024",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "SEO", "Content Strategy", "AI Tools"],
+                    liveUrl: "https://www.intelpedia.tech",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/intelpedia.png",
+                        alt: "Intelpedia - AI Tools & Prompts",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 13,
                     title: "Calsinas",
                     description: "An upcoming modern web project under development. Currently features an interactive hero section as a landing concept.",
                     category: "In Progress",
                     year: "2025",
                     status: "Development",
                     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "",
+                    liveUrl: "https://www.calsinas.app",
                     githubUrl: "",
                     image: {
                         src: "/project-imgs/calsinas.png",
@@ -274,18 +325,52 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 11,
+                    id: 14,
                     title: "Juviem",
                     description: "A future web concept project with a completed landing section focused on branding and digital presence. Designed to evolve into a full-scale product.",
                     category: "In Progress",
                     year: "2025",
                     status: "Development",
                     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "",
+                    liveUrl: "https://www.juviem.tech",
                     githubUrl: "",
                     image: {
                         src: "/project-imgs/juviem.png",
                         alt: "Juviem Landing Page Project",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 15,
+                    title: "BelaDesign International",
+                    description: "An export-import metalworks business website built for a client. Delivered a responsive design highlighting their handcrafted metal art pieces. (Now discontinued)",
+                    category: "Client Project",
+                    year: "2023",
+                    status: "Offline",
+                    technologies: ["WordPress", "Elementor", "SEO"],
+                    liveUrl: "",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/beladesignintl.jpg",
+                        alt: "BelaDesign International Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 16,
+                    title: "TJ Perfumes",
+                    description: "An e-commerce platform for a perfume brand built using WordPress and WooCommerce, integrating UPI payments, POD options, and a premium design experience.",
+                    category: "Client Project",
+                    year: "2023",
+                    status: "Offline",
+                    technologies: ["WordPress", "WooCommerce", "PHP", "SEO"],
+                    liveUrl: "",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/tjperfumes.jpg",
+                        alt: "TJ Perfumes E-commerce Website",
                         width: 800,
                         height: 450
                     }
@@ -355,7 +440,7 @@ export const siteConfig = {
                     endDate: "Apr 2024",
                     description: "Created and managed Intelpedia, a blog and AI tools directory focused on AI tools, prompts, and insights into emerging technologies.",
                     achievements: [
-                        "Published 50+ articles about AI tools, prompt engineering, and productivity.",
+                        "Published 100+ articles about AI tools, prompt engineering, and productivity.",
                         "Built a growing community of tech readers and creators.",
                         "Handled SEO, content strategy, and blog performance optimization independently."
                     ],

@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/config/siteConfig";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { PersonSchema, WebSiteSchema } from "@/components/seo-schemas";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -24,15 +25,22 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: [
+    "Naseem Ansari",
     "Full Stack Developer",
-    "React Developer",
     "Next.js Developer",
+    "React Developer",
     "TypeScript Developer",
+    "Node.js Developer",
     "Web Developer",
     "Frontend Developer",
     "Backend Developer",
+    "Express.js",
+    "MongoDB",
+    "Framer Motion",
+    "UI/UX Developer",
+    "API Development",
+    "SolarisUI",
     "Portfolio",
-    "Naseem Ansari",
   ],
   authors: [{ name: "Naseem Ansari", url: siteConfig.url }],
   creator: "Naseem Ansari",
@@ -62,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    creator: "@naseem",
+    creator: "@dev_Naseem",
     images: [siteConfig.ogImage],
   },
   robots: {
@@ -76,11 +84,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code", // Replace with actual verification code
-    // yandex: 'your-yandex-verification-code',
-    // bing: 'your-bing-verification-code',
-  },
+  // verification: {
+  //   google: "your-google-verification-code", // Add after verifying with Google Search Console
+  //   // yandex: 'your-yandex-verification-code',
+  //   // bing: 'your-bing-verification-code',
+  // },
 };
 
 export default function RootLayout({
@@ -90,6 +98,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <PersonSchema />
+        <WebSiteSchema />
+      </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >

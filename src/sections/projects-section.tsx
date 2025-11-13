@@ -79,7 +79,7 @@ export function ProjectsSection() {
                     alt={project.image.alt}
                     width={project.image.width}
                     height={project.image.height}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-48 object-top object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -153,9 +153,13 @@ export function ProjectsSection() {
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors duration-200 text-sm font-medium"
+                        aria-label={`View live demo of ${project.title}`}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors duration-200 text-sm font-medium"
                       >
-                        <ExternalLink className="w-3.5 h-3.5" />
+                        <ExternalLink
+                          className="w-3.5 h-3.5"
+                          aria-hidden="true"
+                        />
                         Live Demo
                       </a>
                     )}
@@ -164,9 +168,10 @@ export function ProjectsSection() {
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-muted/50 text-muted-foreground border border-border/50 rounded-lg hover:bg-muted/80 hover:text-foreground transition-colors duration-200 text-sm font-medium"
+                        aria-label={`View source code for ${project.title} on GitHub`}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-muted/50 text-muted-foreground border border-border/50 rounded-lg hover:bg-muted/80 hover:text-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 transition-colors duration-200 text-sm font-medium"
                       >
-                        <Github className="w-3.5 h-3.5" />
+                        <Github className="w-3.5 h-3.5" aria-hidden="true" />
                         Source Code
                       </a>
                     )}

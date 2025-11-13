@@ -26,9 +26,9 @@ export function HeroSection() {
           alt={hero.image.alt}
           width={hero.image.width}
           height={hero.image.height}
-          className="h-[60px] w-[120px] object-cover rounded-full shadow-md"
+          className="h-[90px] w-[150px] object-cover rounded-full shadow-md"
         />
-        <div className="space-y-4 mt-6">
+        <div className="space-y-4 mt-2">
           <Heading level="h2" align="center">
             {hero.name}
           </Heading>
@@ -43,7 +43,7 @@ export function HeroSection() {
           </Text>
         </div>
 
-        <div className="flex justify-center items-center gap-x-8 mt-6">
+        <div className="flex justify-center items-center gap-x-8 mt-6" role="list" aria-label="Social media links">
           {hero.socialLinks.map((social, index) => {
             const IconComponent = iconMap[social.icon as keyof typeof iconMap];
             return (
@@ -52,9 +52,13 @@ export function HeroSection() {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group"
+                aria-label={`Visit my ${social.name} profile`}
+                className="group focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 rounded-sm transition-all"
               >
-                <IconComponent className="h-6 w-6 text-primary group-hover:text-blue-600 transition-colors duration-200" />
+                <IconComponent 
+                  className="h-6 w-6 text-primary group-hover:text-blue-600 transition-colors duration-200" 
+                  aria-hidden="true"
+                />
               </Link>
             );
           })}
