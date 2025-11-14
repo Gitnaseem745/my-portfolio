@@ -2,8 +2,8 @@ export const siteConfig = {
     name: "Naseem Ansari - Full Stack Developer",
     description:
         "Full Stack Developer specializing in Next.js, TypeScript, React, and Node.js. Building modern web applications with seamless UI/UX, APIs, and performance optimization. Open source contributor and template creator.",
-    url: "https://naseemansari.me",
-    ogImage: "/project-imgs/naseemansari.png",
+    url: "https://www.naseemansari.me",
+    ogImage: "https://www.naseemansari.me/project-imgs/naseemansari.png",
     links: {
         twitter: "https://twitter.com/dev_Naseem",
         github: "https://github.com/Gitnaseem745",
@@ -281,7 +281,7 @@ export const siteConfig = {
                     year: "2025",
                     status: "Live",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "https://naseemansari.me",
+                    liveUrl: "https://www.naseemansari.me",
                     githubUrl: "",
                     image: {
                         src: "/project-imgs/portfolio.png",
