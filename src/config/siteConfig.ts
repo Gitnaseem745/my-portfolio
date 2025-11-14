@@ -284,7 +284,7 @@ export const siteConfig = {
                     liveUrl: "https://www.naseemansari.me",
                     githubUrl: "",
                     image: {
-                        src: "/project-imgs/portfolio.png",
+                        src: "/project-imgs/naseemansari.png",
                         alt: "Naseem Ansari Portfolio Website",
                         width: 800,
                         height: 450
