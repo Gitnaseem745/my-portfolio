@@ -43,7 +43,11 @@ export function HeroSection() {
           </Text>
         </div>
 
-        <div className="flex justify-center items-center gap-x-8 mt-6" role="list" aria-label="Social media links">
+        <div
+          className="flex justify-center items-center gap-x-8 mt-6"
+          role="list"
+          aria-label="Social media links"
+        >
           {hero.socialLinks.map((social, index) => {
             const IconComponent = iconMap[social.icon as keyof typeof iconMap];
             return (
@@ -52,11 +56,12 @@ export function HeroSection() {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
+                role="link"
                 aria-label={`Visit my ${social.name} profile`}
                 className="group focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 rounded-sm transition-all"
               >
-                <IconComponent 
-                  className="h-6 w-6 text-primary group-hover:text-blue-600 transition-colors duration-200" 
+                <IconComponent
+                  className="h-6 w-6 text-primary group-hover:text-blue-600 transition-colors duration-200"
                   aria-hidden="true"
                 />
               </Link>
