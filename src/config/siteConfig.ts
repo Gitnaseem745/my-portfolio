@@ -1,7 +1,7 @@
 export const siteConfig = {
-    name: "Naseem Ansari - Full Stack Developer",
+    name: "Naseem Ansari - Frontend Developer",
     description:
-        "Full Stack Developer specializing in Next.js, TypeScript, React, and Node.js. Building modern web applications with seamless UI/UX, APIs, and performance optimization. Open source contributor and template creator.",
+        "Frontend Developer specializing in Next.js, React, and TypeScript. Building modern, high-performance web applications with seamless UI/UX and pixel-perfect design. Open source contributor and template creator.",
     url: "https://www.naseemansari.me",
     ogImage: "https://www.naseemansari.me/project-imgs/naseemansari.png",
     links: {
@@ -15,8 +15,8 @@ export const siteConfig = {
     sections: {
         hero: {
             name: "Naseem Ansari",
-            title: "Full Stack Developer",
-            description: "I craft modern, performant web applications with Next.js, TypeScript, and Express — blending design, logic, and motion into seamless user experiences.",
+            title: "Frontend Developer & UI/UX Specialist",
+            description: "I craft modern, performant web applications with Next.js, React, and TypeScript — blending design, logic, and motion into seamless user experiences.",
             image: {
                 src: "/images/me.jpg",
                 alt: "Naseem Ansari - Full Stack Developer",
@@ -54,7 +54,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    name: "Backend & Database",
+                    name: "Backend Knowledge",
                     skills: [
                         "Node.js", "Express.js", "MongoDB", "Mongoose",
                         "REST APIs", "JWT", "Clerk",

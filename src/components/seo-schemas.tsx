@@ -11,7 +11,7 @@ export function PersonSchema() {
     name: "Naseem Ansari",
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Frontend Developer",
     description: siteConfig.description,
     sameAs: [
       siteConfig.links.twitter,
