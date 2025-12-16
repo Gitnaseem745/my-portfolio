@@ -128,7 +128,7 @@ export const siteConfig = {
                     year: "2025",
                     status: "Live",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "https://nextlaunch..calsinas.app",
+                    liveUrl: "https://nextlaunch.calsinas.app",
                     githubUrl: "",
                     image: {
                         src: "/project-imgs/nextlaunch.png",
