@@ -111,7 +111,7 @@ export const siteConfig = {
                     year: "2025",
                     status: "Active",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "https://solarisui.com",
+                    liveUrl: "https://solarisui.calsinas.app",
                     githubUrl: "https://github.com/Gitnaseem745/solarisui",
                     image: {
                         src: "/project-imgs/solaris.png",
@@ -128,7 +128,7 @@ export const siteConfig = {
                     year: "2025",
                     status: "Live",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-                    liveUrl: "https://nextlaunch.solarisui.com/",
+                    liveUrl: "https://nextlaunch..calsinas.app",
                     githubUrl: "",
                     image: {
                         src: "/project-imgs/nextlaunch.png",
@@ -162,7 +162,7 @@ export const siteConfig = {
                     year: "2024",
                     status: "Live",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "SEO"],
-                    liveUrl: "https://www.metalmarkhandicrafts.com/",
+                    liveUrl: "https://metal-mark.vercel.app/",
                     githubUrl: "",
                     image: {
                         src: "/project-imgs/metalmark.png",
