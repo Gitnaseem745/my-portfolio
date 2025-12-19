@@ -139,10 +139,44 @@ export const siteConfig = {
                 },
                 {
                     id: 3,
+                    title: "Nice Academy Bilari",
+                    description: "A full-featured educational platform for a computer training institute in Bilari, India. Features course catalog, 8300+ MCQ practice tests, study notes, blog integration, and contact functionality with a bilingual (English/Hindi) interface.",
+                    category: "Client Project",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Wisp CMS", "SEO"],
+                    liveUrl: "https://www.bestcomputerinstitute.online",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/niceacademy.png",
+                        alt: "Nice Academy Bilari - Computer Institute Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 4,
+                    title: "WorldWinn Batteries",
+                    description: "A product showcase website for an inverter battery company. Features a modern product catalog, detailed product specifications, interactive maps, and a premium minimalist design focused on conversions.",
+                    category: "Client Project",
+                    year: "2025",
+                    status: "Live",
+                    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Leaflet Maps", "SEO"],
+                    liveUrl: "https://www.worldwinnbatteries.com",
+                    githubUrl: "",
+                    image: {
+                        src: "/project-imgs/worldwinnbatteries.png",
+                        alt: "WorldWinn Batteries - Product Showcase Website",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
+                    id: 5,
                     title: "Alam Interior",
                     description: "A professional business website for an interior design company, highlighting portfolio, services and brand identity with elegant, modern design.",
                     category: "Client Project",
-                    year: "2024",
+                    year: "2025",
                     status: "Live",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "SEO"],
                     liveUrl: "https://www.alaminterior.com/",
@@ -155,7 +189,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 4,
+                    id: 6,
                     title: "MetalMark Handicrafts",
                     description: "An export-import metalworks website for an artisan manufacturing company, designed to showcase handcrafted products and increase international visibility.",
                     category: "Client Project",
@@ -172,7 +206,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 5,
+                    id: 7,
                     title: "SSEWS (Swami Swaroopanand Educational Welfare Society)",
                     description: "A non-profit organization website built to promote educational and health initiatives, featuring clean design, community focus and accessible navigation.",
                     category: "Client Project",
@@ -189,11 +223,11 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 6,
+                    id: 8,
                     title: "HypeNest Creative",
                     description: "A creative agency website designed to showcase branding, digital marketing, and web design services with a premium, minimal design aesthetic.",
                     category: "Client Project",
-                    year: "2024",
+                    year: "2025",
                     status: "Live",
                     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
                     liveUrl: "https://www.hypenestcreative.com/",
@@ -206,7 +240,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 7,
+                    id: 9,
                     title: "Modern Portfolio (Template)",
                     description: "A sleek, high-performance portfolio template crafted for developers and creative professionals. Built with Next.js and optimized for speed and animations.",
                     category: "Template",
@@ -223,7 +257,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 8,
+                    id: 10,
                     title: "Digital Agency (Template)",
                     description: "A responsive agency landing template with smooth animations and SEO-friendly structure — designed for digital and creative agencies.",
                     category: "Template",
@@ -240,7 +274,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 9,
+                    id: 11,
                     title: "Productivity App (Template)",
                     description: "A multi-theme landing template for productivity apps with fast loading and habit-tracking focused components.",
                     category: "Template",
@@ -257,7 +291,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 10,
+                    id: 12,
                     title: "Digital Business (Template)",
                     description: "A mobile-first, modern landing page template designed for digital businesses and startups, optimized for conversion and speed.",
                     category: "Template",
@@ -274,7 +308,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 11,
+                    id: 13,
                     title: "Personal Portfolio",
                     description: "My personal portfolio website showcasing my journey, projects, and experience as a full‐stack developer and designer. Built with a focus on motion design, minimalism, and scalability.",
                     category: "Portfolio",
@@ -291,7 +325,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 12,
+                    id: 14,
                     title: "Intelpedia",
                     description: "An AI-focused blog and tools directory where I publish tutorials, prompt libraries, tool breakdowns and AI image-generation prompts. Designed to grow as a community resource for prompt-engineering and AI workflows.",
                     category: "Blog / Knowledge Base",
@@ -308,7 +342,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 13,
+                    id: 15,
                     title: "Calsinas",
                     description: "An upcoming modern web project under development. Currently features an interactive hero section as a landing concept.",
                     category: "In Progress",
@@ -325,7 +359,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 14,
+                    id: 16,
                     title: "Juviem",
                     description: "A future web concept project with a completed landing section focused on branding and digital presence. Designed to evolve into a full-scale product.",
                     category: "In Progress",
@@ -342,7 +376,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 15,
+                    id: 17,
                     title: "BelaDesign International",
                     description: "An export-import metalworks business website built for a client. Delivered a responsive design highlighting their handcrafted metal art pieces. (Now discontinued)",
                     category: "Client Project",
@@ -359,7 +393,7 @@ export const siteConfig = {
                     }
                 },
                 {
-                    id: 16,
+                    id: 18,
                     title: "TJ Perfumes",
                     description: "An e-commerce platform for a perfume brand built using WordPress and WooCommerce, integrating UPI payments, POD options, and a premium design experience.",
                     category: "Client Project",
