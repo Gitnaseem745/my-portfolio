@@ -121,6 +121,23 @@ export const siteConfig = {
                     }
                 },
                 {
+                    id: 19,
+                    title: "Arliko AI",
+                    description: "An open-source ChatGPT-style AI assistant built with Node.js and MongoDB, featuring streaming AI responses via SSE, per-user conversation storage, auto-generated titles, markdown + syntax highlighting, JWT auth, and a modular services/controllers architecture integrated with Google Gemini.",
+                    category: "Open Source / AI Assistant",
+                    year: "2026",
+                    status: "MVP (Open Source)",
+                    technologies: ["Express", "MongoDB", "Google Gemini", "Vanilla JS"],
+                    liveUrl: "https://arliko-ai.onrender.com",
+                    githubUrl: "https://github.com/Gitnaseem745/arliko-ai",
+                    image: {
+                        src: "/project-imgs/arlikoai.png",
+                        alt: "Arliko AI - Open-source streaming AI assistant",
+                        width: 800,
+                        height: 450
+                    }
+                },
+                {
                     id: 2,
                     title: "NextLaunch (Template Store)",
                     description: "A Next.js template marketplace offering ready-to-use, responsive, and animated templates for developers. Built with TypeScript, Tailwind CSS and Framer Motion for modern performance and design.",
